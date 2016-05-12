@@ -29,7 +29,7 @@ appFastplate.use((error,request,response,next) => {
 });
 
 appFastplate.get("/", function(request, response){
-  response.jsonp({ response : "HOLA mUNDO "});
+  response.jsonp({ response : "HOLA mUNDO 2"});
 });
 
 /*
